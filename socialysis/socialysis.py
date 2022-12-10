@@ -305,6 +305,7 @@ class Audios:
             self.data.audio_files_length, self.__duration_unit, unit
         )
         self.__duration_unit = unit
+        self.plot.data=self.data
 
     @doc(describe)
     def describe(self, n=5, others=False):
@@ -357,6 +358,8 @@ class Videos:
             self.data.video_length, self.__duration_unit, unit
         )
         self.__duration_unit = unit
+        self.plot.data=self.data
+
 
     @doc(describe)
     def describe(self, n=5, others=False):
@@ -543,7 +546,7 @@ class Calls:
             self.data.call_duration, self.__duration_unit, unit
         )
         self.__duration_unit = unit
-
+        self.plot.data=self.data
     @doc(describe)
     def describe(self, n=5, others=False):
         return describe(self, n, others)
