@@ -35,3 +35,8 @@ You can then use the `Stats` class and its attributes and modules to analyze the
 
 ## Usage
   See [Demos](./Demos) for detailed examples with explanations.
+  
+## Gallery
+
+![Collection](/Gallery/Collections_3_2.png)
+
