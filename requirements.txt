@@ -1,0 +1,14 @@
+arabic_reshaper
+emoji
+imojify
+librosa
+matplotlib>=3.5.1
+numpy
+opencv_python
+pandas>=1.4.1
+Pillow
+python_bidi
+regex
+tldextract
+tqdm
+wordcloud
